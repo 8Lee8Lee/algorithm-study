@@ -7,6 +7,9 @@ for _ in range(3):
         int_row.append(int(value))
     array1.append(int_row)
 
+input()
+input()
+
 # 두 번째 배열 입력 받기
 array2 = []
 for _ in range(3):
