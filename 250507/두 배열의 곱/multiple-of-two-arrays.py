@@ -8,7 +8,6 @@ for _ in range(3):
     array1.append(int_row)
 
 input()
-input()
 
 # 두 번째 배열 입력 받기
 array2 = []
