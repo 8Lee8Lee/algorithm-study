@@ -1,3 +1,10 @@
-for _ in range(4):  # 총 4줄을 입력받음
-    numbers = list(map(int, input().split()))  # 각 줄의 숫자 4개를 리스트로 변환
-    print(sum(numbers))  # 합계 출력
+matrix = []  # 2차원 리스트 초기화
+
+# 4줄 입력받아서 2차원 리스트에 저장
+for _ in range(4):
+    row = list(map(int, input().split()))  # 입력값을 int로 변환한 리스트
+    matrix.append(row)  # 한 줄씩 추가
+
+# 각 행의 합 출력
+for row in matrix:
+    print(sum(row))
