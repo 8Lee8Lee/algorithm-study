@@ -1,11 +1,6 @@
-def print_5_stars():
-    print("*" * 5)
+def print_10_stars():
+    print("*" * 10)
 
 
-for _ in range(4):
-    print_5_stars()
-
->> *****
-   *****
-   *****
-   *****
+for _ in range(5):
+    print_10_stars()
